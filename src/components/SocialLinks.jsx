@@ -1,6 +1,5 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
@@ -35,15 +34,6 @@ const SocialLinks = () => {
     },
     {
       id: 4,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "mailto:danilater0105@gmail.com",
-    },
-    {
-      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
