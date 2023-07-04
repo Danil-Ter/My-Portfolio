@@ -5,6 +5,8 @@ import githubbattle from "../assets/portfolio/git-hub-battle.png";
 import kinoinfo from "../assets/portfolio/kino-info.png";
 import weather from "../assets/portfolio/weather.png";
 import richard from "../assets/portfolio/richard.png";
+import zona from "../assets/portfolio/Zona.png";
+
 
 
 const Portfolio = () => {
@@ -23,24 +25,30 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: zona,
+      demoLink: "https://zona-business.netlify.app",
+      codeLink: "https://github.com/Danil-Ter/Zona-landing",
+    },
+    {
+      id: 4,
       src: richard,
       demoLink: "https://richard-restaurant.netlify.app/",
       codeLink: "https://github.com/Danil-Ter/richard-restaurant",
     },
     {
-      id: 4,
+      id: 5,
       src: weather,
       demoLink: "https://weather-app-5days.netlify.app/",
       codeLink: "https://github.com/Danil-Ter/Weather-app",
     },
     {
-      id: 5,
+      id: 6,
       src: card,
       demoLink: "https://game-memory-card.netlify.app",
       codeLink: "https://github.com/Danil-Ter/Memory-card",
     },
     {
-      id: 6,
+      id: 7,
       src: color,
       demoLink: "https://generator-colors-random.netlify.app",
       codeLink: "https://example.com/code1",
@@ -50,9 +58,9 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="h-sreen bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
@@ -66,7 +74,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="w-full h-48 object-cover  rounded-md duration-200 hover:scale-105"
+                className="w-full h-48 object-cover rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <a
