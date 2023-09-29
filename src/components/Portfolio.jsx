@@ -2,6 +2,7 @@ import React from "react";
 import card from "../assets/portfolio/card.png";
 import color from "../assets/portfolio/color.png";
 import githubbattle from "../assets/portfolio/git-hub-battle.png";
+import pottermania from "../assets/portfolio/pottermania.png";
 import kinoinfo from "../assets/portfolio/kino-info.png";
 import weather from "../assets/portfolio/weather.png";
 import richard from "../assets/portfolio/richard.png";
@@ -26,36 +27,42 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: pottermania,
+      demoLink: "https://potter-mania.netlify.app/",
+      codeLink: "https://github.com/Danil-Ter/Potteromania",
+    },
+    {
+      id: 4,
       src: store,
       demoLink: "https://russev.od.ua/",
       codeLink: "https://github.com/Danil-Ter/electrical-store",
     },
     {
-      id: 4,
+      id: 5,
       src: zona,
       demoLink: "https://zona-business.netlify.app",
       codeLink: "https://github.com/Danil-Ter/Zona-landing",
     },
     {
-      id: 5,
+      id: 6,
       src: richard,
       demoLink: "https://richard-restaurant.netlify.app/",
       codeLink: "https://github.com/Danil-Ter/richard-restaurant",
     },
     {
-      id: 6,
+      id: 7,
       src: weather,
       demoLink: "https://weather-app-5days.netlify.app/",
       codeLink: "https://github.com/Danil-Ter/Weather-app",
     },
     {
-      id: 7,
+      id: 8,
       src: card,
       demoLink: "https://game-memory-card.netlify.app",
       codeLink: "https://github.com/Danil-Ter/Memory-card",
     },
     {
-      id: 8,
+      id: 9,
       src: color,
       demoLink: "https://generator-colors-random.netlify.app",
       codeLink: "https://example.com/code1",

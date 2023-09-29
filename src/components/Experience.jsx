@@ -9,6 +9,7 @@ import tailwind from "../assets/tailwind.png";
 import sass from "../assets/sass.png";
 import webpack from "../assets/webpack.png";
 import node from "../assets/node.png";
+import vite from "../assets/Vite.png";
 
 const Experience = () => {
   const techs = [
@@ -61,10 +62,16 @@ const Experience = () => {
       style: "shadow-blue-800",
     },
     {
-      id: node,
+      id: 9,
       src: node,
       title: "node",
       style: "shadow-green-800",
+    },
+    {
+      id: 10,
+      src: vite,
+      title: "vite",
+      style: "shadow-purple-900",
     }
   ];
 
